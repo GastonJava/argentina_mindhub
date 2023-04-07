@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Stats</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="recursos/Logo Amazing Events.png" >
+
+    <!-- LINKS DE UTILIDADES -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet"
+      type="text/css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="wrapper-logo__menu">
+          <div class="logo-container">
+            <div class="logo-container__inner">
+              <img src="recursos/Logoevents.png" alt="logo increible">
+            </div>
+          </div>
+
+          <div class="menu-container">
+            <div class="menu-container__inner">
+
+              <div class="ul-wrapper">
+                <ul>
+                  <li><a href="Home.html">Home</a></li>
+                  <li><a href="Upcoming Events.html">Upcoming Events</a></li>
+                  <li><a href="PastEvents.html">Past Events</a></li>
+                  <li><a href="Contactus.html">Contact</a></li>
+                  <li><a href="Stats.html">Stats</a></li>
+                </ul>
+              </div>
+              
+
+              <!-- por las dudas se necesite un buscador mas adelante
+                  
+              <form>
+                <input type="search" name="q" placeholder="Buscar" />
+                <input type="submit" value="¡Vamos!" />
+              </form>  -->
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="wrapper-nav">
+          <nav>
+            <div class="navegacion">
+              <div class="container">
+
+                <div class="icon-left">
+                  <i class='bx bx-left-arrow'></i>
+                </div>
+                  
+                <div class="texto-container">
+                  <h2 class="texto-upcoming">Upcoming Event</h2>
+                </div>
+
+                <div class="icon-right">
+                  <i class='bx bx-right-arrow'></i>
+                </div>            
+              </div>
+          </div>
+          </nav>
+        </div>
+
+      </div>
+    </header>
+
+    <main id="main-stats">
+      <div class="stats-container">
+        
+        <div style="overflow-x:auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="3">Events statistics</th>
+                </tr>
+  
+                <tr>
+                  <td>Events with the highest percentage of attendance</th>
+                  <td>Events with the lowest percentage of attendancet</th>
+                  <td>Event with larger capacity</th>
+                </tr>
+  
+              </thead>
+
+              <tbody class="tbody-events">
+
+                <!--
+                <tr>
+                  <td>dsfsdfdsfdsfdsf</th>
+                  <td>sdfsdfdsfdsfdsf</th>
+                  <td>bcvbbvbvbvbbcxb</th>
+                </tr>
+  
+                
+                <tr>
+                  <td>sbbsfbsbsb</td>
+                  <td>bbbbbbbbbbbbbb</td>
+                  <td>nnnnnnnnnnnnnnnnn</td>
+                </tr>
+              -->
+              </tbody>
+            </table>
+
+            <table>
+              <thead>
+
+                <tr>
+                  <th colspan="3">Upcoming events statistics by category</th>
+                </tr>
+               
+                <tr>
+                  <td>Categories</td>
+                  <td>Revenues</td>
+                  <td>Percentage of attendance</td>
+                </tr>
+  
+              </thead>
+
+              <tbody class="tbody-upcoming">
+                <!--
+                <tr>
+                  <td>tabla 2</th>
+                  <td>tabla 2</th>
+                  <td>tabla 2</th>
+                </tr>
+  
+                
+                <tr>
+                  <td>tabla 2</td>
+                  <td>tabla 2</td>
+                  <td>tabla 2</td>
+                </tr>
+
+                -->
+                
+              </tbody>
+            </table>
+
+            <table>
+              <thead>
+
+                <tr>
+                  <th colspan="3">Past Event statistic by category</th>
+                </tr>
+  
+                <tr>
+                  <td>Categories</td>
+                  <td>Revenues</td>
+                  <td>Percentage of attendance</td>
+                </tr>
+  
+              </thead>
+
+              <tbody class="tbody-past">
+
+                <!--
+                <tr>
+                  <td>tabla 3</th>
+                  <td>tabla 3</th>
+                  <td>tabla 3</th>
+                </tr>
+  
+                
+                <tr>
+                  <td>tabla 3</td>
+                  <td>tabla 3</td>
+                  <td>tabla 3</td>
+                </tr>
+                 -->
+                
+              </tbody>
+            </table>
+          </div>
+
+
+      </div>
+
+    </main>
+
+    <footer>
+
+      <div class="footer-iconos">
+
+        <div class="iconos">
+
+          <div class="instagram ico-container">
+            <i class='bx bxl-instagram-alt bx-rotate'></i>
+          </div>
+          
+          <div class="facebook ico-container">
+            <i class='bx bxl-facebook-circle'></i>
+          </div>
+
+          <div class="whatsapp ico-container">
+            <i class='bx bxl-whatsapp-square'></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-text">
+        <div class="text">
+          <h2>Cohort</h2>
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="scripts/statsServices.js"></script>
+    <script src="scripts/stats.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Contact</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="recursos/Logo Amazing Events.png" />
+
+    <!-- LINKS DE UTILIDADES -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="wrapper-logo__menu">
+          <div class="logo-container">
+            <div class="logo-container__inner">
+              <img src="recursos/Logoevents.png" alt="logo increible">
+            </div>
+          </div>
+
+          <div class="menu-container">
+            <div class="menu-container__inner">
+
+              <div class="ul-wrapper">
+                <ul>
+                  <li><a href="Home.html">Home</a></li>
+                  <li><a href="Upcoming Events.html">Upcoming Events</a></li>
+                  <li><a href="PastEvents.html">Past Events</a></li>
+                  <li><a href="Contactus.html">Contact</a></li>
+                  <li><a href="Stats.html">Stats</a></li>
+                </ul>
+              </div>
+              
+
+              <!-- por las dudas se necesite un buscador mas adelante
+                  
+              <form>
+                <input type="search" name="q" placeholder="Buscar" />
+                <input type="submit" value="¡Vamos!" />
+              </form>  -->
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="wrapper-nav">
+          <nav>
+            <div class="navegacion">
+              <div class="container">
+
+                <div class="icon-left">
+                  <i class='bx bx-left-arrow'></i>
+                </div>
+                  
+                <div class="texto-container">
+                  <h2 class="texto-upcoming">Upcoming Event</h2>
+                </div>
+
+                <div class="icon-right">
+                  <i class='bx bx-right-arrow'></i>
+                </div>            
+              </div>
+          </div>
+          </nav>
+        </div>
+
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="main-container">
+        <div class="formulario">
+          <div class="container">
+            <form action="/action_page.php">
+                <div class="input-group">
+                    <label for="fname">Name</label>
+                    <input
+                      type="text"
+                      id="fname"
+                      name="firstname"
+                      placeholder="Your name..">
+                </div>
+            
+                <div class="input-group">
+                    <label for="lname">Email</label>
+                    <input
+                      type="text"
+                      id="lname"
+                      name="lastname"
+                      placeholder="Your last name..">
+                </div>
+
+                <div class="input-group">
+                    <label for="subject">Message</label>
+                   <textarea
+                   id="subject"
+                   name="subject"
+                   placeholder="Write something.."
+                   style="height: 200px">
+                  </textarea>
+                </div>
+
+                <div class="boton-group">
+                    <input type="submit" value="Submit">
+                </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-iconos">
+        <div class="iconos">
+          <div class="instagram ico-container">
+            <i class="bx bxl-instagram-alt bx-rotate"></i>
+          </div>
+
+          <div class="facebook ico-container">
+            <i class="bx bxl-facebook-circle"></i>
+          </div>
+
+          <div class="whatsapp ico-container">
+            <i class="bx bxl-whatsapp-square"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-text">
+        <div class="text">
+          <h2>Cohort</h2>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
